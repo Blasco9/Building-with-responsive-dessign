@@ -206,7 +206,16 @@ a {
 .article-text p{
     font-size: 12px;
     cursor: pointer;
-    color:rgb(104, 104, 104);
+    color: #aaa;
+    margin-right: 8px;
+}
+
+.article-text a {
+    color: #aaa;
+}
+
+.article-text a:hover {
+    color: #555;
 }
 
 .article-text h2:hover{
@@ -257,7 +266,6 @@ a {
 
 .aside-div-container{
     display: flex;
-    
 }
 
 .aside-div-container div{
@@ -268,6 +276,11 @@ a {
     background-color: darkblue;
 }
 
+.aside-div-container img {
+    width: 60px;
+    height: 60px;
+}
+
 .related-articles {
     max-width: 1150px;
     margin: 10px auto;
@@ -276,6 +289,15 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
     grid-gap: 20px;
+}
+
+.grid-articles h2 {
+    color:rgb(255, 68, 34) ;
+}
+
+.grid-articles h2:hover {
+    color: black ;
+    cursor: pointer;
 }
 
 .grid-article-img {
