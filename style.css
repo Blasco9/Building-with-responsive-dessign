@@ -1,5 +1,5 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -43,7 +43,7 @@ table {
 }
 
 nav{
-    background-color: darkblue;
+    background-color: #131313;
     height: 32px;
     color: white;
     display: flex;
@@ -59,8 +59,14 @@ a {
     text-decoration: none;
     color: black;
 }
+.logo-img{
+    padding-left: 15px;
+    width: 75px;
+}
 
 .logo-container {
+    box-sizing: border-box;
+    padding-top: 25px;
     display: none;
     width: 106px;
     height: 80px;
@@ -85,13 +91,19 @@ a {
 
 .nav-left li, .nav-right li {
     line-height: 2;
+    color: rgb(184, 179, 179);
+}
+
+.first-li-nav li{
+    color: white;
+
 }
 
 .search-bar {
     height: 48px;
     display: flex;
     justify-content: space-between;
-    background-color: tomato;
+    background-color: #FEFEFE;
 }
 
 .search-bar-left {
@@ -126,17 +138,26 @@ a {
 
 .a{
     grid-area: a;
-    background-color: aquamarine;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/1-18-796x417.jpg
+    );
+    background-position: center;
 }
 
 .b{
     grid-area: b;
-    background-color: blueviolet;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Off-Facebook-Activity-796x417.jpg);
+    background-position: center;
 }
 
 .c {
     grid-area: c;
-    background-color: brown;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/All-Formats-Lightcycle-Morph-796x402.jpg);
+    background-position: center;
+}
+
+.a img{
+    max-height:410px;
+    width: 100%;
 }
 
 .latest-news {
@@ -230,7 +251,10 @@ a {
 /* 1024px width break point */
 @media screen and (max-width: 1024px){
     
-    .logo-container{display: block;}
+    .logo-container{
+        display: block;
+        padding-top: 30px;
+    }
     .last-div{display: none;}
     .aside-div-container div{width: 33.3%;}
 }
@@ -284,7 +308,10 @@ a {
     nav{
         display: none;
     }
-    .logo-container{height: 48px;}
+    .logo-container{
+        height: 48px;
+        padding-top: 15px;
+    }
     .search-bar-left{
         display: none;
     }
