@@ -72,7 +72,7 @@ a {
     width: 106px;
     height: 80px;
     float: left;
-    background-color: turquoise;
+    background-image: linear-gradient(to bottom right, #c09, #f42 85%);
 }
 
 .nav-left {
@@ -143,7 +143,6 @@ a {
 
 .cover-section{
     height: 400px;
-    background-color: cornflowerblue;
     display: grid;
     grid-template-areas: "a a a b b"
                          "a a a c c"
@@ -344,6 +343,7 @@ a {
     font-size: 12px;
     padding: 5px;
 }
+
 
 @media screen and (max-width:1200px){
     .li-readme{display: none;}
