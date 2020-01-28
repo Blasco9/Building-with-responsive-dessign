@@ -138,6 +138,27 @@ ul {
     margin: 10px 10px;
 }
 
+.related-articles {
+    max-width: 1150px;
+    margin: 10px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+    grid-gap: 20px;
+}
+
+.grid-article-img {
+    min-height: 17.25rem;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Google-Drive-down-368x276.jpg);
+    background-repeat: no-repeat;
+}
+
+.article-header-container img {
+    width: 96px;
+    height: 96px;
+}
+
 .footer1{
     height: 162px;
     background-color: darkkhaki;
@@ -194,6 +215,11 @@ ul {
     .aside-div-container div{
         width: 100%;
     }
+
+    .related-articles {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 /* 750PX WIDTH BREAKPOINT */
