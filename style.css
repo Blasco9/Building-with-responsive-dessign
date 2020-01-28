@@ -1,0 +1,39 @@
+nav{
+    background-color: darkblue;
+    height: 30px;
+}
+
+.cover-section{
+    height: 400px;
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-areas: "a a a b b"
+                         "a a a c c"
+    ;
+}
+
+.a{
+    grid-area: a;
+    background-color: aquamarine;
+}
+
+.b{
+    grid-area: b;
+    background-color: blueviolet;
+}
+
+.c {
+    grid-area: c;
+    background-color: brown;
+}
+
+@media screen and (max-width: 750px) {
+    .cover-section{
+        height: 400px;
+        background-color: cornflowerblue;
+        grid-template-areas: "a a a a a"
+                             "b b b b b"
+                             "c c c c c"
+        ;
+    }
+}
