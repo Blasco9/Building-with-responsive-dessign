@@ -107,6 +107,25 @@ ul {
     grid-area: c;
     background-color: brown;
 }
+
+.latest-news {
+    max-width: 1150px;
+    margin: 10px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 10px;
+}
+
+.grid-articles {
+    background-color: cadetblue;
+}
+
+.grid-articles img {
+    max-width: 100%;
+}
+
 @media screen and (max-width:1200px){
     .li-readme{display: none;}
 }
@@ -128,6 +147,18 @@ ul {
                              "b b b b b"
                              "c c c c c"
         ;
+    }
+    .latest-news {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-articles {
+        display: flex;
+    }
+
+    .grid-articles img {
+        width: 75px;
+        height: 75px;
     }
 }
 
