@@ -159,18 +159,32 @@ ul {
     height: 96px;
 }
 
-.footer1{
+.footer1{   
     height: 162px;
     background-color: darkkhaki;
 }
 
-.footer1 div{
-    
+.footer-social{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer-social i{
+    margin-left: 30px;    
 }
 
 .footer2{
     height: 100px;
     background-color: rgb(122, 119, 70);
+}
+
+.footer1-ul-container ul{
+    width: 20%;
+    margin: 40px auto;
+}
+
+.footer1-ul-container li{
+    margin-left: 10px;
 }
 
 @media screen and (max-width:1200px){
