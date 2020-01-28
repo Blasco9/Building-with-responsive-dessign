@@ -352,17 +352,32 @@ a {
   display: flex;
 }
 
-.aside-div-container div {
+.aside-box {
   justify-content: space-between;
   width: 25%;
   height: 267px;
   margin-top: 2rem;
-  background-color: darkblue;
+  border: 1px solid darkblue;
 }
 
 .aside-div-container img {
   width: 60px;
   height: 60px;
+  transform: translate(10px , -60px);
+}
+
+.aside-div-container h3{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: -1px;
+    height:30px;
+    background-color: rgb(255, 68, 34);
+}
+
+.m-series-a{
+    text-align: center;
+    width: 100% !important;  
 }
 
 .related-articles {
@@ -397,10 +412,11 @@ a {
 
 .footer1 {
   height: 162px;
-  background-color: darkkhaki;
+  background-color: rgb(26, 26, 26);
 }
 
 .footer-social {
+  color: white;
   width: 450px;
   padding-top: 25px;
   text-align: center;
@@ -413,10 +429,16 @@ a {
 
 .footer2 {
   height: 100px;
-  background-color: rgb(122, 119, 70);
+  background-color: rgb(0, 0, 0);
+}
+
+.footer2 a{
+    justify-content: center;
+
 }
 
 .footer1-ul-container {
+  background-color: rgb(26, 26, 26);  
   width: 450px;
   margin: 40px auto;
   text-align: center;
@@ -427,6 +449,14 @@ a {
   list-style-type: none;
   font-size: 12px;
   padding: 5px;
+}
+
+.footer1-ul-container li a{
+    color: white;
+}
+
+.footer1-ul-container li a:hover{
+    color: rgb(98, 98, 98);
 }
 
 @media screen and (max-width: 1200px) {
@@ -440,7 +470,8 @@ a {
     padding-top: 30px;
   }
   .last-div { display: none; }
-  .aside-div-container div { width: 33.3%; }
+  .aside-box{ width: 33.3%; }
+  .latest-fundings-header{display: block;}
 }
 
 /* 815px breakpoint */
