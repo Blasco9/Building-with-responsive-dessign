@@ -59,6 +59,7 @@ ul {
 }
 
 .logo-container {
+    display: none;
     width: 106px;
     height: 80px;
     float: left;
@@ -66,7 +67,8 @@ ul {
 }
 
 .nav-left {
-    width: 500px;
+    width: 400px;
+    padding-right: 2rem;
 }
 
 .nav-right {
@@ -79,6 +81,8 @@ ul {
     justify-content: space-between;
     background-color: tomato;
 }
+
+.li-readme{display: block;}
 
 .cover-section{
     height: 400px;
@@ -103,7 +107,19 @@ ul {
     grid-area: c;
     background-color: brown;
 }
-
+@media screen and (max-width:1200px){
+    .li-readme{display: none;}
+}
+/* 1024px width break point */
+@media screen and (max-width: 1024px){
+    
+    .logo-container{display: block;}
+}
+/* 815px breakpoint */
+@media screen and (max-width: 815px) {
+    .nav-right{display: none;}
+}
+/* 768 px width breakpoint */
 @media screen and (max-width: 768px) {
     .cover-section{
         height: 400px;
@@ -115,4 +131,14 @@ ul {
     }
 }
 
-@media
+/* 750PX WIDTH BREAKPOINT */
+@media screen and (max-width: 750px) {
+    nav{
+        display: none;
+    }
+    .logo-container{height: 48px;}
+    .search-bar-left{
+        display: none;
+    }
+}
+
