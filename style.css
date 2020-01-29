@@ -146,6 +146,7 @@ a {
 header {
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .logo-img {
@@ -258,6 +259,7 @@ header {
   width: 100%;
   height: 100%;
   background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png);
+  background-size: cover;
   opacity: 0.75;
 }
 .gradient-2{
@@ -267,33 +269,48 @@ header {
   width: 100%;
   height: 100%;
 }
-.logo-overlay{
-  position: absolute;
-  background-repeat: no-repeat;
-  max-width: 50%;
-  max-height: 70px;
+
+.logo-overlay-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-overlay img{
   height: 100%;
-  width: 300px;
-  background:url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg);
-  top: 20px;
-  left: 20px;
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+.logo-overlay p {
+  z-index: 1;
+  color: white;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.cover-header h1 {
+  color: white;
+
+}
+
+.z-index {
+  z-index: 1;
 }
 
 .b {
+  position: relative;
   grid-area: b;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Off-Facebook-Activity-796x417.jpg);
   background-position: center;
 }
 
 .c {
+  position: relative;
   grid-area: c;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/All-Formats-Lightcycle-Morph-796x402.jpg);
   background-position: center;
-}
-
-.a img {
-  max-height: 410px;
-  width: 100%;
 }
 
 .latest-news {
@@ -727,6 +744,9 @@ hr{
 
 /* Medium breakpoint */
 @media screen and (max-width: 1024px) {
+  .logo-overlay {
+    display: none;
+  }
   .logo-container {
     display: block;
     padding-top: 30px;
@@ -773,7 +793,6 @@ hr{
 
   .cover-section {
     height: 400px;
-    background-color: cornflowerblue;
     grid-template-areas:
       "a a a a a"
       "b b b b b"
