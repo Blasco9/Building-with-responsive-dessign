@@ -227,6 +227,7 @@ a {
 .cover-section {
   height: 400px;
   display: grid;
+  grid-gap: 10px;
   grid-template-areas:
     "a a a b b"
     "a a a c c";
@@ -239,6 +240,8 @@ a {
       https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/1-18-796x417.jpg
     );
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .b {
@@ -363,7 +366,9 @@ aside {
   width: 25%;
   height: 267px;
   margin-top: 2rem;
-  border: 1px solid darkblue;
+}
+.aside-box-1{
+  margin: 15px;
 }
 
 .aside-div-container img {
@@ -388,14 +393,27 @@ aside {
 }
 
 .m-series-a{
-  background-color:rgba(255, 68, 34, 0.08);
+  background-color:rgba(255, 67, 34, 0.15);
   padding-top: 10px;
   padding-left: 80px;
+  line-height: 1.5;
+  padding-bottom: 5px;
+}
 
+.m-series-a h5{
+  opacity: 0.6;
 }
 
 .icons-aside{
   padding-top: 15px;
+  padding-left: 15px;
+}
+.icons-aside span:hover{
+  color: rgb(202, 27, 27);
+}
+
+.opacity-down{
+  opacity: 0.5;
 }
 
 .fa-tag{
@@ -408,8 +426,19 @@ aside {
 }
 
 .footer-of-box-1{
+  max-width: 200px;
   font-size: 12px;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0 auto;
 }
+
+hr{
+  color: rgba(255, 67, 34, 0.513);
+  opacity: 0.3;
+  margin-top: 30px;
+}
+
 .related-articles {
   max-width: 1150px;
   margin: 10px auto;
