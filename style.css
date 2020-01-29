@@ -211,10 +211,6 @@ header {
   text-transform: uppercase;
 }
 
-.search-bar-left li a {
-  color: rgb(184, 179, 179);
-}
-
 .li-readme {
   display: block;
 }
@@ -696,14 +692,14 @@ hr {
   align-items: center;
 }
 
+.search-bar-left li a {
+  color: rgb(184, 179, 179);
+}
+
 .nav-left li:hover,
 .nav-right li:hover {
   line-height: 2;
   color: rgb(231, 230, 230);
-}
-
-.search-bar-left li a:hover {
-  color: black;
 }
 
 .article-li a:hover {
@@ -746,6 +742,10 @@ hr {
 
 .footer1-ul-container li a:hover {
   color: rgb(98, 98, 98);
+}
+
+.search-bar-left li a:hover {
+  color: black;
 }
 
 /* Large breakpoint */
