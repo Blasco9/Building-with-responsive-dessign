@@ -384,6 +384,7 @@ a {
   padding-right: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+  grid-template-rows: repeat(3, 700px);
   grid-gap: 20px;
 }
 
@@ -396,15 +397,81 @@ a {
   cursor: pointer;
 }
 
-.grid-article-img {
-  min-height: 17.25rem;
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Google-Drive-down-368x276.jpg);
+.related-articles-img {
   background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 276px;
+  height: 100%;
+}
+
+.img-1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg);
+}
+
+.img-2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/All-Formats-Lightcycle-Morph-368x276.jpg);
+}
+
+.img-3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/ring-amazon-video-customer-368x276.jpg);
+}
+
+.img-4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04-368x276.png);
+}
+
+.img-5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design44-368x276.png);
+}
+
+.img-6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
+}
+
+.img-7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg);
+}
+
+.img-8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Google-Android-Developer-Options-368x276.jpg);
+}
+
+.article-header-container {
+  display: flex;
 }
 
 .article-header-container img {
   width: 96px;
   height: 96px;
+}
+
+.article-header {
+  color: rgb(255, 68, 34);
+  font-size: 14px;
+}
+
+.article-header p {
+  font-weight: 700;
+}
+
+.article-ul {
+  list-style-type: disc;
+  color: rgb(255, 68, 34);
+}
+
+.article-li {
+  border-bottom: 1px solid #555;
+  padding: 5px 0;
+}
+
+.article-li a{
+  color: #555;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.article-li a:hover {
+  color: black;
 }
 
 .footer1 {
