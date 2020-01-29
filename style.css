@@ -345,6 +345,15 @@ a {
   transform: scale(1.07);
 }
 
+aside {
+  max-width:1150px ;
+}
+
+.padding-margin-reset{
+  margin: 0;
+  padding: 0;
+}
+
 .aside-div-container {
   display: flex;
 }
@@ -360,10 +369,12 @@ a {
 .aside-div-container img {
   width: 60px;
   height: 60px;
-  transform: translate(10px , -60px);
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
-.aside-div-container h3{
+.aside-div-container h3 {
     color: white;
     text-align: center;
     padding-top: 20px;
@@ -372,11 +383,33 @@ a {
     background-color: rgb(255, 68, 34);
 }
 
-.m-series-a{
-    text-align: center;
-    width: 100% !important;  
+.h123{
+  padding-right: 70px;
 }
 
+.m-series-a{
+  background-color:rgba(255, 68, 34, 0.08);
+  padding-top: 10px;
+  padding-left: 80px;
+
+}
+
+.icons-aside{
+  padding-top: 15px;
+}
+
+.fa-tag{
+  margin: 0 2px;
+}
+
+.fa-suitcase{
+  margin: 0 2px;
+  padding-top: 8px;
+}
+
+.footer-of-box-1{
+  font-size: 12px;
+}
 .related-articles {
   max-width: 1150px;
   margin: 10px auto;
