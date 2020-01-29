@@ -433,6 +433,7 @@ aside {
 .related-articles-img {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   max-height: 276px;
   height: 100%;
 }
@@ -473,17 +474,57 @@ aside {
   display: flex;
 }
 
-.article-header-container img {
+.article-header-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 96px;
   height: 96px;
 }
 
+.img-1-a {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Google-translate.png);
+}
+
+.img-2-a {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-tim-cook-EU-fight.png);
+}
+
+.img-3-a {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg);
+}
+
+.img-4-a {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/instagram-photoshop-hide-misinformation.jpg);
+}
+
+.img-5-a {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design43.png);
+}
+
+.img-6-a {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/google-play-store-malware-joker.jpg);
+}
+
+.img-7-a {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Press-Conference-with-Eric-Esrailian-Alexis-Ohanian-Hakob-Arshakyan-Yervant-Zorian-and-Serj-Tankian-hed.jpg);
+}
+
+.img-8-a {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_2267466a.png);
+}
+
 .article-header {
+  padding-top: 10px;
+  padding-left: 10px;
+  line-height: 1.2;
   color: rgb(255, 68, 34);
+  background-color: rgba(255,68,34,.06);
   font-size: 14px;
 }
 
 .article-header p {
+  margin-top: 5px;
   font-weight: 700;
 }
 
