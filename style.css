@@ -661,7 +661,7 @@ hr {
 
 .footer-social {
   color: white;
-  width: 450px;
+  max-width: 450px;
   padding-top: 25px;
   text-align: center;
   margin: 0 auto;
@@ -673,7 +673,7 @@ hr {
 
 .footer1-ul-container {
   background-color: rgb(26, 26, 26);
-  width: 450px;
+  max-width: 450px;
   margin: 40px auto;
   text-align: center;
 }
