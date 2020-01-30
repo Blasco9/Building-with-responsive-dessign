@@ -7,7 +7,7 @@ In this project, we got the chance to build a responsive website. We’ll be clo
 (https://thenextweb.com/) 
 
 Live Link to our work
-(https://rawcdn.githack.com/Blasco9/Building-with-responsive-dessign/89b729e30b12394cc41421e4180daccd6016cb25/index.html)
+(https://rawcdn.githack.com/Blasco9/Building-with-responsive-dessign/0ff8f450e6571026697d95b04b1e74f6e19395cc/index.html)
 * The project was completed using html and css
 ## Authors
 
