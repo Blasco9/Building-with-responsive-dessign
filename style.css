@@ -898,7 +898,8 @@ hr {
     width: 100%;
   }
 
-  section, .latest-fundings {
+  section,
+ .latest-fundings {
     width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
