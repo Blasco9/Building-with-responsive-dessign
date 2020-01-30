@@ -267,6 +267,7 @@ header {
 .logo-overlay img {
   height: 100%;
   width: 50%;
+  max-width: 400px;
   padding-top: 20px;
   padding-left: 20px;
   z-index: 1;
@@ -277,6 +278,11 @@ header {
   color: white;
   padding-right: 20px;
   padding-top: 20px;
+}
+
+.title-cover-section-overlay{
+  font-size: 10px;
+  width: 100%;
 }
 
 .cover-header h1 {
@@ -327,7 +333,12 @@ header {
 }
 
 .article-text h2 {
+  color: black !important;
   font-size: 16px;
+}
+
+.article-text h2:hover{
+  color: rgb(255, 68, 34) !important;
 }
 
 .article-text p {
