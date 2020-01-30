@@ -854,6 +854,12 @@ hr {
     width: 100%;
   }
 
+  .latest-fundings-header .add-more-class {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
   .related-articles {
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
