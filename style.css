@@ -326,6 +326,10 @@ header {
   max-height: 154px;
 }
 
+.article-text h2 {
+  font-size: 16px;
+}
+
 .article-text p {
   font-size: 12px;
   cursor: pointer;
@@ -374,17 +378,18 @@ aside {
 
 .aside-div-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .aside-box {
   justify-content: space-between;
-  width: 25%;
+  width: 24%;
   height: 267px;
   margin-top: 2rem;
 }
 
 .aside-box-1 {
-  margin: 15px;
+  margin: 15px 0;
 }
 
 .aside-div-container img {
@@ -410,6 +415,7 @@ aside {
 
 .m-series-a {
   background-color: rgba(255, 67, 34, 0.15);
+  box-sizing: border-box;
   padding-top: 10px;
   padding-left: 80px;
   line-height: 1.5;
@@ -421,6 +427,7 @@ aside {
 }
 
 .icons-aside {
+  box-sizing: border-box;
   padding-top: 15px;
   padding-left: 15px;
 }
@@ -583,8 +590,10 @@ hr {
 }
 
 .deals {
-  width: 1150px;
+  max-width: 1150px;
   margin: 2rem auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .deals-grid {
@@ -645,10 +654,6 @@ hr {
   max-width: 270px;
 }
 
-.deals-grid p {
-  width: 180px;
-}
-
 .footer1 {
   height: 162px;
   background-color: rgb(26, 26, 26);
@@ -690,6 +695,10 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer2 img {
+  max-width: 100%;
 }
 
 .search-bar-left li a {
@@ -771,7 +780,7 @@ hr {
   }
 
   .aside-box {
-    width: 33.3%;
+    width: 32%;
   }
 
   .latest-fundings-header {
@@ -794,7 +803,7 @@ hr {
 }
 
 /* Small breakpoint */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   nav {
     display: none;
   }
@@ -880,7 +889,19 @@ hr {
     margin-bottom: 10px;
   }
 
+  .box-title-and-price {
+    display: flex;
+    flex-direction: column;
+  }
+
   .deals-grid p {
-    width: auto;
+    width: 100%;
+  }
+
+  section, .latest-fundings {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
