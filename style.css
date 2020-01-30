@@ -281,7 +281,7 @@ header {
 }
 
 .title-cover-section-overlay{
-  font-size: 10px;
+  font-size: 56px;
   width: 100%;
 }
 
@@ -289,8 +289,35 @@ header {
   color: white;
 }
 
+.absolute-date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+}
+
+.absolute-title {
+  position: absolute;
+  font-weight: bold;
+  bottom: 50px;
+  left: 20px;
+  color: white;
+}
+
+.absolute-creator {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
 .z-index {
   z-index: 1;
+}
+
+.title-cover-side-section-overlay {
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .b {
