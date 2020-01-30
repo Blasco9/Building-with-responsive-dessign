@@ -281,7 +281,7 @@ header {
 }
 
 .title-cover-section-overlay{
-  font-size: 56px;
+  font-size: 50px;
   width: 100%;
 }
 
@@ -481,6 +481,9 @@ aside {
 .fa-suitcase {
   margin: 0 2px;
   padding-top: 8px;
+}
+.fa1{
+  padding: 5px;
 }
 
 .footer-of-box-1 {
@@ -804,13 +807,18 @@ hr {
 
 /* Medium breakpoint */
 @media screen and (max-width: 1024px) {
-  .logo-overlay {
+  .logo-overlay img {
     display: none;
   }
+  .absolute-date {display: none;}
 
   .logo-container {
     display: block;
     padding-top: 30px;
+  }
+
+  .fa2{
+    display: none;
   }
 
   .last-div {
@@ -846,9 +854,23 @@ hr {
     display: none;
   }
 
+  .fa2{
+    display: inline-block;
+  }
+
   .logo-container {
     height: 48px;
     padding-top: 15px;
+  }
+
+  .title-cover-section-overlay{
+    font-size: 20px;
+  }
+  .title-cover-side-section-overlay{
+    font-size: 20px;
+  }
+  .gradient-2{
+    background:transparent linear-gradient(0deg, rgba(2,0,36,.2) 38%, rgba(255,255,255,.2) 100%, rgba(255,255,255,.2) 100%);
   }
 
   .search-bar {
