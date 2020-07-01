@@ -4,7 +4,7 @@ In this project, we got the chance to build a responsive website. We’ll be clo
 
 #Screen shot
 
-![sample](ss.png)
+![sample](ss.png.png)
 
  Website used as example in the Odin project
 (https://thenextweb.com/) 
