@@ -23,8 +23,8 @@ Live Link to our work
 👤 **Julian Blasco**
 
 - Github: [@Blasco9](https://github.com/Blasco9)
-- Twitter: [@julianblasco9](https://twitter.com/julianblasco9)
-- Linkedin: [Julian Blasco](https://www.linkedin.com/in/julian-augusto-blasco-1656a0153/)
+- Linkedin: [Julian Blasco](https://www.linkedin.com/in/julian-blasco/)
+- Email: blascoblasco9@gmail.com
 
 ## 🤝 Contributing
 
